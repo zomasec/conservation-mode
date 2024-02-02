@@ -11,7 +11,7 @@ echo $SHELL
 ```
 and then use : 
 ```bash
-source ~/.zshrc
+source ~/.bashrc
 ```
 ## Example usage: ```convmode 0```
 ## Example usage: ```convmode 1```
