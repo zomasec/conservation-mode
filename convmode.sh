@@ -6,7 +6,7 @@ convmode() {
 
     mode=$1
     if [ "$mode" -eq 0 ] || [ "$mode" -eq 1 ]; then
-        echo "$mode" | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conse>
+        echo "$mode" | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conse
     else
         echo "Invalid argument. Use 0 for off or 1 for on."
     fi
