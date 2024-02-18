@@ -1,4 +1,4 @@
-# conversation-mode
+# conservation-mode
 enable and disable conversation mode in linux
 ```bash
 sudo nano ~/.bashrc
